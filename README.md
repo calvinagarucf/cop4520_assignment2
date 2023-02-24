@@ -76,11 +76,15 @@ From the samples it appears that lower values of guests may have
 higher variation in runtime when compared to larger values.
 
 
-# Problem 1: Minotaur's Crystal Vase
+# Problem 2: Minotaur's Crystal Vase
 
 While I unfortunately do not have time to code up a representation of the most viable strategy, I do believe that it would be strategy three, the queue. 
 
 Neither strategy one nor strategy two guarantee that each guest that announces their desire to enter the waiting room is able to. Strategy three solves this problem by allowing the guests to enter a 'line' so to speak. 
 
 Another benefit of strategy three is order. Strategy three's allows priority for the guest at the front of the queue to enter next. Strategy one nor strategy two utilize any sort of priority, meaning it is a fight between the guests over who gets to enter the room when it is unoccupied.
+
+On the other hand, strategy three could involve more overhead and waiting among the guests.
+
+However, the guarantee that each guest that wants to enter will enter at some point, and that the guests have a fair advantage when it comes to actually getting into the room are much more important than those disadvantages. 
 
