@@ -80,7 +80,7 @@ higher variation in runtime when compared to larger values.
 
 While I unfortunately do not have time to code up a representation of the most viable strategy, I do believe that it would be strategy three, the queue. 
 
-Neither strategy one nor strategy two guarantee that each guest that announces their desire to enter the waiting room is able to. Strategy three solves this problem by allowing the guests to enter a 'line' so to speak. 
+Neither strategy one nor strategy two guarantee that each guest that announces their desire to enter the waiting room is able to. Strategy three solves this problem by allowing the guests to enter a 'line' so to speak where they will be able to wait their turn to enter.
 
 Another benefit of strategy three is order. Strategy three's allows priority for the guest at the front of the queue to enter next. Strategy one nor strategy two utilize any sort of priority, meaning it is a fight between the guests over who gets to enter the room when it is unoccupied.
 
