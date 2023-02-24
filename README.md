@@ -1,9 +1,18 @@
 Calvin Agar
+
 COP4520
+
 Juan Parra
+
 Programming Assignment 2
 
+
 # Problem 1: Minotaur's Birthday Party
+
+To compile (inside Problem1 folder): javac *.java && java BirthdayParty
+
+Currently the number of guests is set to 20. This can be changed in the BirthdayParty.java file.
+
 
 To solve this problem, the guests will count themselves
 and one guest will be a designated counter.
