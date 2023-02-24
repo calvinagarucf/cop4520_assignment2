@@ -68,7 +68,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class BirthdayParty {
 
-    public static int GUEST_COUNT = 30;
+    public static int GUEST_COUNT = 20;
 
     public static AtomicBoolean allGuestsHaveEntered = new AtomicBoolean(false);
     public static AtomicInteger nextToEnter = new AtomicInteger(-1);
