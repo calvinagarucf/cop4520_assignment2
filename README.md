@@ -54,7 +54,7 @@ An optimization to this could be to scale the rate at which the counter
 is picked by the Minotaur based on the number guests.
 
 So, samples were taken at different values of guests.
-5: 513ms 771ms 1295ms 693ms 842ms
+5: 513ms 771ms 1295ms 693ms 842ms\n
 10: 1602ms 3006ms 4365ms 3274ms 3110ms
 20: 10566ms 10451ms 11587ms 11141ms 11585ms
 30: 25280ms 27586ms 20410ms 23996ms 26968ms
